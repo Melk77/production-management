@@ -14,7 +14,7 @@ INSERT INTO users (name, email, password_hash, role, phone)
 VALUES (
         'System Administrator',
         'admin@production.local',
-        '$2b$10$6BXtnNDdSKcewKkc5/CeYu.SbsOsP1Vkpah/rIPUkr.F47hK81Fx2',
+        '$2b$10$BLkALVJahzMxau35blPX7OG/oJxAB50LEIatt50SqRsVbEy0i1bim',
         'admin',
         '0911000001'
     ),
