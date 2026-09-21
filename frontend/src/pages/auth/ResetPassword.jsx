@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { authApi } from "../../services/api";
 import "./ResetPassword.css";
 
 function ResetPassword() {
@@ -23,25 +24,7 @@ function ResetPassword() {
     }
 
     try {
-      const response = await fetch(
-        "http://localhost:5000/api/auth/reset-password",
-        {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-          },
-          body: JSON.stringify({
-            token,
-            newPassword: password,
-          }),
-        },
-      );
-
-      const data = await response.json();
-
-      if (!response.ok) {
-        throw new Error(data.message);
-      }
+      const data = await authApi.resetPassword(token, password);
 
       setMessage(data.message);
 

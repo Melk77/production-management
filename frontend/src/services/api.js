@@ -1,4 +1,8 @@
-const BASE_URL = "http://localhost:5000/api";
+const API_ORIGIN = (
+  import.meta.env.VITE_API_URL ||
+  "https://factoryflow-backend-le1u.onrender.com"
+).replace(/\/$/, "");
+const BASE_URL = `${API_ORIGIN}/api`;
 
 const getToken = () => sessionStorage.getItem("token");
 

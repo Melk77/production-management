@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { authApi } from "../../services/api";
 import "./ForgotPassword.css";
 
 function ForgotPassword() {
@@ -15,24 +16,7 @@ function ForgotPassword() {
     setLoading(true);
 
     try {
-      const response = await fetch(
-        "http://localhost:5000/api/auth/forgot-password",
-        {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-          },
-          body: JSON.stringify({
-            email,
-          }),
-        },
-      );
-
-      const data = await response.json();
-
-      if (!response.ok) {
-        throw new Error(data.message);
-      }
+      const data = await authApi.forgotPassword(email);
 
       setMessage(data.message);
     } catch (error) {
