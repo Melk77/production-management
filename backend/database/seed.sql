@@ -14,42 +14,42 @@ INSERT INTO users (name, email, password_hash, role, phone)
 VALUES (
         'System Administrator',
         'admin@production.local',
-        '$2b$10$dkiEpqmoKFbEBmB0YkcZ3.cS2FnOpAOQMVVpX2f2UZJo15nAq1Vwa',
+        '$2b$10$6BXtnNDdSKcewKkc5/CeYu.SbsOsP1Vkpah/rIPUkr.F47hK81Fx2',
         'admin',
         '0911000001'
     ),
     (
         'Production Manager',
         'manager@production.local',
-        '$2b$10$N9qo8uLOickgx2ZMRZoMyeIjZAgcfl7p92ldGxad68LJZdL17lhWy',
+        '$2b$10$Op2u0rjeuhF7B8xCYQ57EuT157Mzq5bOHDXVAzkziyXqwrJbxzD72',
         'manager',
         '0911000002'
     ),
     (
         'Production Operator',
         'operator@production.local',
-        '$2b$10$N9qo8uLOickgx2ZMRZoMyeIjZAgcfl7p92ldGxad68LJZdL17lhWy',
+        '$2b$10$ycQ0/L9lWKL4WYItrLkvV.1yWsQGruIeuVqMbLQdENBIyvWOIUVhe',
         'operator',
         '0911000003'
     ),
     (
         'Quality Inspector',
         'inspector@production.local',
-        '$2b$10$N9qo8uLOickgx2ZMRZoMyeIjZAgcfl7p92ldGxad68LJZdL17lhWy',
+        '$2b$10$KPeTlPZ/2JRWY291v34uAOu6yDGldrYsycxUvfyU/PrgU.Jn6GSu2',
         'inspector',
         '0911000004'
     ),
     (
         'Procurement Officer',
         'procurement@production.local',
-        '$2b$10$N9qo8uLOickgx2ZMRZoMyeIjZAgcfl7p92ldGxad68LJZdL17lhWy',
+        '$2b$10$KJkze9VOOVjnGXXTGWYDN.jO3RqaknofCsOVwjTPIJR.S7FtBh4yq',
         'procurement',
         '0911000005'
     ),
     (
         'Warehouse Staff',
         'warehouse@production.local',
-        '$2b$10$N9qo8uLOickgx2ZMRZoMyeIjZAgcfl7p92ldGxad68LJZdL17lhWy',
+        '$2b$10$ImUpnwFXoy6yvxxk9SROYOVsH/EWiz/Ehx80ZpyLeDXELXglT2cc.',
         'warehouse',
         '0911000006'
     );
