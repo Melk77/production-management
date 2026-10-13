@@ -613,15 +613,13 @@ FactoryFlow
 
 This project is developed as a Full-Stack Web Development project.
 
-Add your preferred license here.
-
 ---
 
 ## Author
 
 **FactoryFlow Development Team**
 
-Full-Stack Web Development Project
+Melkamu Tsegaye Tamir
 
 ---
 
