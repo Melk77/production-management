@@ -617,8 +617,6 @@ This project is developed as a Full-Stack Web Development project.
 
 ## Author
 
-**FactoryFlow Development Team**
-
 Melkamu Tsegaye Tamir
 
 ---
